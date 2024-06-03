@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es el símbolo químico del oro?",
+        "respostes": ["Ag", "Au", "Fe", "Hg"],
+        "respostaCorrecta": "Au"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "respostes": ["Tierra", "Marte", "Júpiter", "Saturno"],
+        "respostaCorrecta": "Júpiter"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué elemento químico representa el símbolo H?",
+        "respostes": ["Helio", "Hidrógeno", "Oxígeno", "Carbono"],
+        "respostaCorrecta": "Hidrógeno"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es el proceso por el cual las plantas capturan la luz solar y la convierten en energía?",
+        "respostes": ["Fotosíntesis", "Respiración", "Digestión", "Transpiración"],
+        "respostaCorrecta": "Fotosíntesis"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "respostes": ["Húmero", "Fémur", "Tibia", "Radio"],
+        "respostaCorrecta": "Fémur"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+        "respostes": ["Hierro", "Aluminio", "Silicio", "Oxígeno"],
+        "respostaCorrecta": "Oxígeno"
+    }
+]

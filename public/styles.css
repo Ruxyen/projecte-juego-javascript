@@ -1,0 +1,276 @@
+/* Estilos generales */
+
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    overflow: hidden;
+    position: relative; /* Añadido para posicionar los rombos relativos al body */
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(60deg, #333, #333 1.5px, transparent 1.5px, transparent 10px);
+    z-index: -1; /* Asegura que el fondo esté detrás de otros elementos */
+}
+
+
+/* Encabezado */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #666;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#closeRoomButton {
+    background-color: #ff6666;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.5);
+}
+
+#closeRoomButton:hover {
+    background-color: #e60000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+#roomCode {
+    color: #fff;
+}
+
+#logo {
+    color: #fff;
+    margin-left: 40px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: filter 0.3s ease, text-shadow 0.3s ease;
+}
+
+#logo:hover {
+    filter: brightness(1.2) saturate(1.5);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Contenedor principal */
+
+#mainContainer {
+    margin-top: 25px;
+    background-color: #4c4c4c;
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
+}
+
+/* Contenedor de jugadores y navegación */
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#playersTitle,
+#categoriesTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd700;
+    padding: 20px;
+    position: fixed;
+    top: 150px;
+    background-color: #666;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#playersContainer {
+    margin-top: 6.5%;
+    overflow-y: auto;
+    max-height: 55vh;
+    width: 25%;
+    border: 2px solid white;
+    margin-left: 150px;
+}
+
+.player {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    z-index: 0;
+    color: white;
+}
+
+.player:hover {
+    background-color: #ffd700;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor de categorías */
+
+#categoriesContainer {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.category-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.category {
+    margin: 15px;
+    padding: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease, background-color 0.3s ease;
+    flex-grow: 1;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    filter: brightness(0.5) saturate(0.5);
+}
+
+.category:hover {
+    filter: brightness(1.5) saturate(1.5);
+    transform: scale(1.1);
+}
+
+/* Colores para categorías específicas */
+
+.category1 {
+    background-color: #3498db; /* Azul */
+    color: black;
+}
+
+.category2 {
+    background-color: #e74c3c; /* Rojo */
+    color: black;
+}
+
+.category3 {
+    background-color: #2ecc71; /* Verde */
+    color: black;
+}
+
+.category4 {
+    background-color: #f39c12; /* Amarillo */
+    color: black;
+}
+
+/* Navegación */
+
+#navigationContainer {
+    position: fixed;
+    bottom: 22%;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.navigation-button {
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 15px;
+}
+
+.navigation-button:hover {
+    background-color: #ffd700;
+    color: #222;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Botón de inicio de juego */
+
+#startGameButtonContainer {
+    padding: 20px;
+    text-align: center;
+}
+
+#startGameButton {
+    background-color: #b6a026;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    margin-top: 32%;
+    margin-left: -32.5%;
+    width: 400px;
+}
+
+#startGameButton:hover {
+    background-color: #ffd700;
+    color: black;
+    transform: scale(1.1);
+}
+
+#loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+#loadingText {
+    color: #fff;
+    font-size: 24px;
+}

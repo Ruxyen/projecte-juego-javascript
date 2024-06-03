@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Quién interpretó el papel principal en la película 'El Padrino' dirigida por Francis Ford Coppola?",
+        "respostes": ["Al Pacino", "Marlon Brando", "Robert De Niro", "Jack Nicholson"],
+        "respostaCorrecta": "Marlon Brando"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál es la película con mayor recaudación de todos los tiempos?",
+        "respostes": ["Avengers: Endgame", "Avatar", "Titanic", "Jurassic Park"],
+        "respostaCorrecta": "Avengers: Endgame"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Quién dirigió la película de ciencia ficción 'Blade Runner' original de 1982?",
+        "respostes": ["James Cameron", "Ridley Scott", "Steven Spielberg", "George Lucas"],
+        "respostaCorrecta": "Ridley Scott"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál fue la primera película de la saga 'Star Wars' lanzada en 1977?",
+        "respostes": ["La Guerra de las Galaxias", "El Imperio Contraataca", "El Retorno del Jedi", "Una Nueva Esperanza"],
+        "respostaCorrecta": "Una Nueva Esperanza"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué película ganó el premio Óscar a la Mejor Película en 1994?",
+        "respostes": ["Forrest Gump", "Titanic", "Pulp Fiction", "El Rey León"],
+        "respostaCorrecta": "Forrest Gump"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Quién interpretó a Neo en la trilogía de 'Matrix' dirigida por los hermanos Wachowski?",
+        "respostes": ["Keanu Reeves", "Tom Cruise", "Brad Pitt", "Will Smith"],
+        "respostaCorrecta": "Keanu Reeves"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué película ganó el premio a la Mejor Película en los Premios de la Academia en 2019?",
+        "respostes": ["Parasite", "Joker", "1917", "Green Book"],
+        "respostaCorrecta": "Parasite"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es el título de la película animada de Disney de 1994 que se basa en Hamlet de Shakespeare?",
+        "respostes": ["El Rey León", "La Bella y la Bestia", "Aladdín", "Pocahontas"],
+        "respostaCorrecta": "El Rey León"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Quién dirigió la película 'El Resplandor', basada en la novela de Stephen King?",
+        "respostes": ["Stanley Kubrick", "Alfred Hitchcock", "Martin Scorsese", "David Fincher"],
+        "respostaCorrecta": "Stanley Kubrick"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué película ganó el primer premio Óscar a la Mejor Película de Animación en 2002?",
+        "respostes": ["Shrek", "Monsters, Inc.", "El Viaje de Chihiro", "Buscando a Nemo"],
+        "respostaCorrecta": "El Viaje de Chihiro"
+    }
+]

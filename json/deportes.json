@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es el deporte más popular en el mundo en términos de número de espectadores?",
+        "respostes": ["Fútbol", "Baloncesto", "Críquet", "Tenis"],
+        "respostaCorrecta": "Fútbol"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Quién es considerado el mejor jugador de baloncesto de todos los tiempos?",
+        "respostes": ["Michael Jordan", "LeBron James", "Kobe Bryant", "Magic Johnson"],
+        "respostaCorrecta": "Michael Jordan"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿En qué deporte se utiliza un guante de béisbol?",
+        "respostes": ["Béisbol", "Fútbol Americano", "Hockey sobre Hielo", "Golf"],
+        "respostaCorrecta": "Béisbol"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es el récord mundial de los 100 metros lisos en atletismo masculino?",
+        "respostes": ["9.58 segundos", "9.69 segundos", "9.79 segundos", "9.81 segundos"],
+        "respostaCorrecta": "9.58 segundos"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué equipo de fútbol ha ganado la mayor cantidad de Copas del Mundo FIFA?",
+        "respostes": ["Brasil", "Alemania", "Italia", "Argentina"],
+        "respostaCorrecta": "Brasil"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué deporte se juega en el torneo de Wimbledon?",
+        "respostes": ["Tenis", "Golf", "Polo", "Bádminton"],
+        "respostaCorrecta": "Tenis"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿En qué deporte se utiliza una pala para golpear una pelota sobre una red?",
+        "respostes": ["Tenis de Mesa", "Pádel", "Bádminton", "Voleibol"],
+        "respostaCorrecta": "Pádel"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Qué país ganó la medalla de oro en baloncesto masculino en los Juegos Olímpicos de 2016?",
+        "respostes": ["Estados Unidos", "España", "Argentina", "Brasil"],
+        "respostaCorrecta": "Estados Unidos"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué deporte se juega en el Super Bowl?",
+        "respostes": ["Fútbol Americano", "Baloncesto", "Fútbol", "Béisbol"],
+        "respostaCorrecta": "Fútbol Americano"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Cuál es el evento de ciclismo más famoso y prestigioso del mundo?",
+        "respostes": ["Tour de Francia", "Giro de Italia", "Vuelta a España", "Milán-San Remo"],
+        "respostaCorrecta": "Tour de Francia"
+    }
+]

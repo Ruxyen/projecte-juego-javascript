@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joc de les Preguntes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.min.js"></script>
+
+    <script src="client.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Formulario Flotante para Unirse a la Sala -->
+    <div id="floatingForm" style="display: none;">
+        <input type="text" id="playerNameFloating" placeholder="Introdueix el teu Nom">
+        <button onclick="joinRoom()">Unir-se a la Sala</button>
+    </div>
+
+    <!-- Crear Sala -->
+    <div id="createGame">
+        <input type="text" id="salaName" placeholder="Nom de la Sala">
+        <input type="text" id="creatorName" placeholder="El teu Nom">
+        <button onclick="createGame()">Crear Partida</button>
+    </div>
+
+    <!-- Unir-se a Sala -->
+    <div id="joinGame">
+        <input type="text" id="playerName" placeholder="Nom del Jugador">
+        <input type="text" id="salaCode" placeholder="Codi de la Sala">
+        <button onclick="joinGame()">Unir-se a la Partida</button>
+    </div>
+
+    <!-- Unir-se a una Sala Específica (visible només quan s'accedeix a una sala específica) -->
+    <div id="joinSpecificGame" style="display: none;">
+        <input type="text" id="specificPlayerName" placeholder="El teu Nom">
+        <button onclick="joinSpecificGame()">Unir-se a la Partida</button>
+    </div>
+
+    <!-- Top bar for closing room and displaying code -->
+    <div id="top-bar" style="display: none;">
+        <button id="closeRoomButton" onclick="closeRoom()" style="display: none;">CERRAR SALA</button>
+        <button id="leaveRoomButton" onclick="leaveRoom()" style="display: none;">SALIR DE SALA</button>
+
+        <div id="roomCodeDisplay">CÓDIGO: <span id="salaCodeDisplay"></span></div>
+    </div>
+
+    <!-- Main container with grid layout for the room -->
+    <div id="main-container" style="display: none;">
+
+        <!-- Player list -->
+        <div id="playerList">
+            <h2>JUGADORES</h2>
+            <!-- Player list will be inserted here -->
+        </div>
+
+        <!-- Category buttons container -->
+        <div id="categoriaDiv">
+            <!-- Category buttons will be created here -->
+        </div>
+
+        <!-- Button to start the game -->
+        <button id="startGameButton" onclick="startGame()">INICIAR PARTIDA</button>
+    </div>
+    </div>
+
+    <!-- Área del Juego -->
+    <div id="gameArea" style="display: none;">
+        <div id="question"></div>
+        <!-- Las respuestas como botones irán aquí -->
+        <div id="answerMessage"></div>
+
+
+    </div>  
+        <div id="feedback"></div> <!-- Elemento para mostrar el feedback de las respuestas -->
+
+    <!-- Historial de Preguntas -->
+    <div id="history" style="display: block;">
+        <h2>Historial de Preguntas</h2>
+        <!-- El historial de preguntas y respuestas se mostrará aquí -->
+    </div>
+
+
+
+    <p id="timer" style="display: none;">30</p>
+
+    <div id="salaInfo" style="display: none;"></div>
+
+
+    <!-- Resultados del Juego -->
+    <div id="results" style="display: none;"></div>
+
+</body>
+
+</html>

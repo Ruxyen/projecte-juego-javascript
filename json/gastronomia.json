@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es el ingrediente principal del plato italiano 'risotto'?",
+        "respostes": ["Arroz", "Pasta", "Patatas", "Carne"],
+        "respostaCorrecta": "Arroz"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué país es famoso por su cocina de sushi?",
+        "respostes": ["Japón", "China", "Tailandia", "Corea del Sur"],
+        "respostaCorrecta": "Japón"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Cuál es el ingrediente principal del plato español 'paella'?",
+        "respostes": ["Arroz", "Pasta", "Patatas", "Carne"],
+        "respostaCorrecta": "Arroz"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué plato típico francés se hace con carne de pato?",
+        "respostes": ["Magret de Pato", "Cassoulet", "Confit de Pato", "Foie Gras"],
+        "respostaCorrecta": "Magret de Pato"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué país es conocido por su cocina picante y sabrosa?",
+        "respostes": ["México", "India", "Tailandia", "Italia"],
+        "respostaCorrecta": "Tailandia"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué plato típico estadounidense se hace con carne picada y se sirve con papas fritas?",
+        "respostes": ["Hamburguesa con patatas fritas", "Hot Dog", "Taco", "Burrito"],
+        "respostaCorrecta": "Hamburguesa con patatas fritas"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Qué postre italiano se hace con capas de bizcocho, mascarpone y café?",
+        "respostes": ["Tiramisú", "Panna Cotta", "Cannoli", "Gelato"],
+        "respostaCorrecta": "Tiramisú"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es el ingrediente principal del plato griego 'moussaka'?",
+        "respostes": ["Berenjena", "Tomate", "Carne de cordero", "Queso feta"],
+        "respostaCorrecta": "Berenjena"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué plato típico español se elabora con arroz, mariscos y azafrán?",
+        "respostes": ["Paella", "Tortilla Española", "Gazpacho", "Pulpo a la Gallega"],
+        "respostaCorrecta": "Paella"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Qué tipo de queso se utiliza tradicionalmente en el plato suizo 'fondue'?",
+        "respostes": ["Queso Emmental", "Queso Cheddar", "Queso Gruyère", "Queso Azul"],
+        "respostaCorrecta": "Queso Gruyère"
+    }
+]

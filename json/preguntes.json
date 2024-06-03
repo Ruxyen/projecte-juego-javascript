@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "pregunta": "Quina és la capital de França?",
+        "respostes": ["París", "Londres", "Roma", "Berlín"],
+        "respostaCorrecta": "París"
+    },
+    {
+        "id": 2,
+        "pregunta": "Quant és 2 + 2?",
+        "respostes": ["3", "4", "5", "6"],
+        "respostaCorrecta": "4"
+    }
+]

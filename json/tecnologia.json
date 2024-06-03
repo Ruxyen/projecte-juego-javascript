@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué empresa es conocida por desarrollar el sistema operativo Android?",
+        "respostes": ["Apple", "Microsoft", "Google", "Samsung"],
+        "respostaCorrecta": "Google"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál es el nombre del cofundador de Apple, junto con Steve Jobs y Steve Wozniak?",
+        "respostes": ["Bill Gates", "Elon Musk", "Mark Zuckerberg", "Steve Jobs"],
+        "respostaCorrecta": "Steve Jobs"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué siglas representan la tecnología de comunicación inalámbrica utilizada para conectar dispositivos a corta distancia?",
+        "respostes": ["Wi-Fi", "3G", "4G", "Bluetooth"],
+        "respostaCorrecta": "Bluetooth"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Qué significa 'HTML' en el contexto de la programación web?",
+        "respostes": ["Hyper Text Markup Language", "High Tech Multimedia Language", "Home Tool Management Language", "Hyperlinks and Text Management Language"],
+        "respostaCorrecta": "Hyper Text Markup Language"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Cuál es el nombre del primer satélite artificial lanzado por la Unión Soviética en 1957?",
+        "respostes": ["Vostok 1", "Sputnik 1", "Apollo 11", "Hubble"],
+        "respostaCorrecta": "Sputnik 1"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿Qué siglas representan la tecnología utilizada para almacenar datos de forma permanente en computadoras?",
+        "respostes": ["SSD", "RAM", "HDD", "USB"],
+        "respostaCorrecta": "HDD"
+    },
+    {
+        "id": 7,
+        "pregunta": "¿Quién es conocido como el padre de la informática?",
+        "respostes": ["Bill Gates", "Alan Turing", "Steve Jobs", "Tim Berners-Lee"],
+        "respostaCorrecta": "Alan Turing"
+    },
+    {
+        "id": 8,
+        "pregunta": "¿Cuál es el nombre del primer navegador web desarrollado por Tim Berners-Lee?",
+        "respostes": ["Google Chrome", "Mozilla Firefox", "Internet Explorer", "Netscape Navigator"],
+        "respostaCorrecta": "Netscape Navigator"
+    },
+    {
+        "id": 9,
+        "pregunta": "¿Qué empresa desarrolló la primera línea de teléfonos inteligentes 'iPhone'?",
+        "respostes": ["Google", "Samsung", "Apple", "Microsoft"],
+        "respostaCorrecta": "Apple"
+    },
+    {
+        "id": 10,
+        "pregunta": "¿Cuál es el nombre del primer ordenador personal comercialmente exitoso lanzado por IBM en 1981?",
+        "respostes": ["IBM PC", "Macintosh", "Altair 8800", "Commodore 64"],
+        "respostaCorrecta": "IBM PC"
+    }
+]

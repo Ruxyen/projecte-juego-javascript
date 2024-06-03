@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retroction</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            background: url('./images/fondo.png') no-repeat center center fixed; /* Cambia 'tu_imagen.jpg' por tu URL de imagen */
+            background-size: cover;
+            background-position-y:-55px;
+            
+        }
+
+        #welcomeContainer {
+            text-align: center;
+            color: #fff;
+    
+            line-height: 3.5;
+           
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            color: #ffd700;
+            font-size: 40px;
+            margin-bottom: 50px;
+            /* Espacio entre el título y la descripción */
+        }
+
+        h3 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: white;
+            /* Espacio entre la descripción y el botón */
+        }
+
+        ul {
+            width: 50%;
+            margin: auto; /* Centrar el elemento ul */
+        }
+
+        li {
+            color: white;
+            text-decoration: none;
+            list-style: square;
+        }
+
+        #playButton {
+            background-color: #b6a026;
+            /* Color dorado */
+            color: black;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 30px;
+            font-size: 25px;
+            transition: background-color 1.5s ease, transform 1.5s ease;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+            margin-top: 60px;
+            margin-bottom: 70px;
+        }
+
+        #playButton:hover {
+            background-color: #ffd700;
+            color: black;
+            transform: scale(1.1);
+        }
+    </style>
+   
+</head>
+
+<body>
+
+    <div id="welcomeContainer">
+        <h1>Bienvenido a Retroction</h1>
+        <hr><br>
+        <h3>Retroction es un emocionante juego de preguntas y respuestas, utilizando Node.js y Socket.io.</h3>
+        <ul>
+            <li>Creado por Brian Vilchez y Rubén Teruel</li>
+            <li>3º Proyecto de DAW 2</li>
+        </ul>
+        <h3>¡Únete a la diversión y demuestra tus conocimientos en este desafío!</h3>
+        <br><hr>
+        <button id="playButton">Jugar</button>
+    </div>
+
+    <script>
+        document.getElementById('playButton').addEventListener('click', function () {
+            // Redireccionar al archivo index.html cuando se hace clic en el botón "Jugar"
+            window.location.href = 'main.html';
+        });
+    </script>
+
+</body>
+
+</html>

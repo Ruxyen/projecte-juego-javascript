@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "respostes": ["1776", "1789", "1792", "1801"],
+        "respostaCorrecta": "1776"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Cuál fue la capital del Imperio Romano?",
+        "respostes": ["Atenas", "Roma", "Constantinopla", "Cartago"],
+        "respostaCorrecta": "Roma"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "respostes": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+        "respostaCorrecta": "George Washington"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿En qué año comenzó la Revolución Francesa?",
+        "respostes": ["1769", "1789", "1804", "1821"],
+        "respostaCorrecta": "1789"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa en 1917?",
+        "respostes": ["Vladimir Lenin", "Joseph Stalin", "Mikhail Gorbachev", "Nikita Khrushchev"],
+        "respostaCorrecta": "Vladimir Lenin"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿En qué año se firmó el Tratado de Versalles que puso fin a la Primera Guerra Mundial?",
+        "respostes": ["1917", "1918", "1919", "1920"],
+        "respostaCorrecta": "1919"
+    }
+]

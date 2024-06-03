@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Cuál es una marca de zapatillas famosa por su logo de tres rayas?",
+        "respostes": ["Nike", "Puma", "Adidas", "Reebok"],
+        "respostaCorrecta": "Adidas"
+    },
+    {
+        "id": 2,
+        "pregunta": "¿En qué año se lanzaron las primeras Air Jordan de Nike?",
+        "respostes": ["1985", "1990", "2000", "1995"],
+        "respostaCorrecta": "1985"
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué marca de zapatillas es conocida por su icónico modelo Chuck Taylor?",
+        "respostes": ["New Balance", "Converse", "Vans", "Skechers"],
+        "respostaCorrecta": "Converse"
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Cuál es el nombre de las zapatillas de Nike diseñadas para correr de manera eficiente?",
+        "respostes": ["Air Force 1", "Roshe Run", "Air Max", "Zoom Vaporfly"],
+        "respostaCorrecta": "Zoom Vaporfly"
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Qué marca de zapatillas es conocida por su tecnología Gel en la suela?",
+        "respostes": ["Saucony", "ASICS", "Under Armour", "Fila"],
+        "respostaCorrecta": "ASICS"
+    },
+    {
+        "id": 6,
+        "pregunta": "¿En qué país se originó la marca Puma?",
+        "respostes": ["Estados Unidos", "Alemania", "Reino Unido", "Italia"],
+        "respostaCorrecta": "Alemania"
+    }
+]
